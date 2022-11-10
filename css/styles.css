@@ -31,6 +31,9 @@ ul {
 .link {
     text-decoration: none;
 }
+.link.current {
+    color: var(--accent-color);
+}
 .container {
     margin: 0 auto;
     width: 1200px;
