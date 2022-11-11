@@ -437,6 +437,7 @@ footer .footer-list {
 
 .footer-icons {
     margin-left: 70px;
+    flex-direction: column;
 }
 
 .footer-icons .social-icon {
