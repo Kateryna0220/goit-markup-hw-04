@@ -31,9 +31,6 @@ ul {
 .link {
     text-decoration: none;
 }
-.link.current {
-    color: var(--accent-color);
-}
 .container {
     margin: 0 auto;
     width: 1200px;
@@ -138,7 +135,8 @@ margin-left: 10px;
 .footer-list .link:focus {
     color: var(--accent-color);
 }
-
+.link.current {
+    color: var(--accent-color);}
 /* Hero */
 
 .hero {
@@ -312,9 +310,6 @@ margin-bottom: 30px;
 .social-icon {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 16px;
-    margin-bottom: 30px;
 }
 
 .social-item:nth-child(4) {
@@ -435,7 +430,6 @@ footer .footer-list {
 .container-footer,
 .footer-icons{
     display: flex;
-align-items: space-aline;
 }
 .footer-info {
     margin-left: 215px;
@@ -559,4 +553,18 @@ align-items: space-aline;
     letter-spacing: 0.03em;
     padding-left: 24px;
     padding-bottom: 20px;
+}
+footer .container {
+display: flex;
+align-items: baseline;
+}
+.footer-icons p{
+    font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 20px;
 }
