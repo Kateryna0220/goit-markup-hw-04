@@ -110,7 +110,6 @@ header {
 
 
 .contact .link {
-margin-left: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -297,6 +296,7 @@ margin-bottom: 30px;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
 }
 
 .social-item {
@@ -310,6 +310,7 @@ margin-bottom: 30px;
     align-items: center;
     padding-bottom: 30px;
     justify-content: center;
+
 }
 
 .social-item:nth-child(4) {
@@ -343,6 +344,7 @@ margin-bottom: 30px;
     display: flex;
 }
 
+
 .clients-list .item {
     width: 170px;
     height: 92px;
@@ -352,8 +354,8 @@ margin-bottom: 30px;
 }
 
 .clients-list .link {
-    width: 170px;
-    height: 92px;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -457,6 +459,10 @@ footer .footer-list {
 }
 .footer-subject:last-child {
     margin-bottom: 0px;}
+.social-icon.footer{
+    padding-bottom: 0;
+}
+
 /* Portfolio */
 
 .portfolio h1 {
@@ -508,7 +514,7 @@ footer .footer-list {
     margin-right: 30px;
     margin-bottom: 30px;
     width: 370px;
-    border: 1px solid #eeeeee;
+
 }
 .project-list .caption {
         margin-bottom: 4px;
